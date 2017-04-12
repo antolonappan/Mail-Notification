@@ -1,6 +1,6 @@
 import imaplib
-mail = imaplib.IMAP4_SSL('mail.gandi.net')
-mail.login('thinkpad@antoilonappan.in', 'AntoThinkpad')
+mail = imaplib.IMAP4_SSL('imap_server_goes_here')
+mail.login('username@domain.com', '*********')
 mail.list()
 mail.select("inbox")
 import email
