@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import imaplib
 mail = imaplib.IMAP4_SSL('imap_server_goes_here')
 mail.login('username@domain.com', '*********')
